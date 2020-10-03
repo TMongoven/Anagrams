@@ -6,8 +6,7 @@ import time
 
 gametime = int(input("How long would you like each round of this game to last? (number of seconds) "))
 while True:
-    maxlength = int(input("How many letters would you like to play with? (number) "))
-    letters, words = generatewords(maxlength)                               # Gives a list of maxlength letters and the words that can be made from them
+    letters, words = generatewords(6)                               # Gives a list of maxlength letters and the words that can be made from them
     pointlist = [100, 400, 1200, 2000]                              # Specified point values for 3, 4, 5, and 6 letter words respectively
     starttime = time.time()             
     currenttime = time.time()                                                   
