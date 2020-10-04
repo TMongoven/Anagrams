@@ -11,5 +11,5 @@ Otherwise, the point breakout for correct words is as follows:
       - 1200 points for a 5 letter word
       - 2000 points for a 6 letter word (there will always be a 6 letter word that can be made from the randomly generated letters)
       
-The time is recalculated after each guess, and if the user has run out of time after a guess, the round will end.
+The time remaining is recalculated after each guess, and if the user has run out of time after a guess, the round will end.
 The game will print out the list of correct guesses from the user, the user's score, and all the possible words from the given letters.
