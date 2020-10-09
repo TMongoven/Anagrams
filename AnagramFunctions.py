@@ -10,8 +10,10 @@ def cont():
             print("Must be a yes or no response.")
 
 def diction():
-    with open('engmix.txt', 'r', encoding='latin-1') as realwords:
-        realset = set(realwords.read().split())
+    import os
+    import sys
+    with open(os.path.join(sys.path[0], "engmmix.txt"), "r", encoding='latin-1') as f:
+        realset = set(f.read().split())
     return realset
 
 def fixword(word):
