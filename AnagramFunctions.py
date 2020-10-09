@@ -12,7 +12,7 @@ def cont():
 def diction():
     import os
     import sys
-    with open(os.path.join(sys.path[0], "engmmix.txt"), "r", encoding='latin-1') as f:
+    with open(os.path.join(sys.path[0], "engmix.txt"), "r", encoding='latin-1') as f:
         realset = set(f.read().split())
     return realset
 
