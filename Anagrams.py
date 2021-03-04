@@ -31,6 +31,4 @@ while True:
     print(correctwords)
     print("These were all the possible words: ")
     print(words)
-    if pointtotal == 6900:
-        print("Nice score btw")
     cont()
